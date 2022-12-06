@@ -1,6 +1,16 @@
+@import url(//fonts.google.com/specimen/Barlow+Semi+Condensed);
+
 :root {
+  --ModerateViolet: hsl(263, 55%, 52%);
+  --DarkGreyBlue: hsl(217, 19%, 35%);
+  --DarkBlackBlue: hsl(219, 29%, 14%);
+  --White: hsl(0, 0%, 100%);
+
+  --LightGrey: hsl(0, 0%, 81%);
+  --LightGreyBlue: hsl(210, 46%, 95%);
 }
 body {
+  font-family: "Barlow Semi Condensed";
 }
 .grid {
 }
