@@ -20,7 +20,7 @@ body {
 .grid {
   display: grid;
   grid-template-rows: 300px 300px;
-  grid-template-columns: 300px 300px 300px 300px;
+  grid-template-columns: 290px 290px 290px 290px;
   grid-template-areas:
     "post1 post1 post2 post5"
     "post3 post4 post4 post5";
@@ -32,6 +32,8 @@ body {
   justify-content: space-evenly;
   border-radius: 5px;
   padding: 2rem;
+  /* padding-top: 2.5rem;
+  padding-bottom: 3.5rem; */
 }
 .post-1 {
   grid-area: post1;
@@ -59,7 +61,7 @@ body {
   color: var(--DarkGreyBlue);
 }
 .profile {
-  height: 50px;
+  height: 40px;
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: 1fr 1fr;
@@ -92,5 +94,6 @@ body {
 .description {
   flex: 1;
   font-size: 1rem;
+  line-height: 1.2rem;
   opacity: 0.7;
 }
