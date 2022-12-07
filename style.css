@@ -1,4 +1,4 @@
-@import url(//fonts.google.com/specimen/Barlow+Semi+Condensed);
+/* @import url(https://fonts.google.com/specimen/Barlow+Semi+Condensed); */
 
 :root {
   --ModerateViolet: hsl(263, 55%, 52%);
@@ -12,6 +12,10 @@
 body {
   font-family: "Barlow Semi Condensed";
   background-color: var(--LightGreyBlue);
+  min-height: 96vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .grid {
   display: grid;
@@ -69,6 +73,7 @@ body {
 }
 .status {
   grid-area: status;
+  opacity: 0.5;
 }
 .image {
   grid-area: image;
@@ -87,4 +92,5 @@ body {
 .description {
   flex: 1;
   font-size: 1rem;
+  opacity: 0.7;
 }
