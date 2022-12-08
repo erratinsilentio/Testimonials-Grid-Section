@@ -40,6 +40,7 @@ body {
   grid-area: post1;
   background-color: var(--ModerateViolet);
   color: var(--White);
+  position: relative;
 }
 .post-2 {
   grid-area: post2;
@@ -97,6 +98,15 @@ body {
   font-size: 1rem;
   line-height: 1.2rem;
   opacity: 0.7;
+}
+.mark {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  right: 75px;
+}
+.level {
+  z-index: 1;
 }
 
 @media (max-width: 376px) {
