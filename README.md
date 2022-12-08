@@ -41,5 +41,5 @@ Users should be able to:
 
 ### What I learned
 
-[ x ] Media Queries
-[ x ] CSS Grid and Grid Template Areas
+- Media Queries
+- CSS Grid and Grid Template Areas
