@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://erratinsilentio.github.io/Testimonials-Grid-Section/)
+- Live Site URL: [click](https://erratinsilentio.github.io/Testimonials-Grid-Section/)
 
 ## My process
 
